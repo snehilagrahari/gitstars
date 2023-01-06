@@ -27,7 +27,7 @@ function App() {
   }
   useEffect(()=>{
     getData();
-  })
+  },[language])
   return (
     <div className="App">
       <Navbar handleClick={setLang}/>
